@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    cout << "Hola Last of Us" << endl;
-    return 0;
+    cout << "Hola Last of Us \n";
 
+    return 0;
 }
