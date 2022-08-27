@@ -14,4 +14,11 @@ ___
 
 Se utiliza el operador **&** para obtener la dirección de una variable.
 
-Normalmente se antepone a una variable, entonces se obtiene su direccion de memoria.
+Normalmente se antepone a una variable, entonces se obtiene su direccion de memoria.7
+______
+
+### **int *puntero; (indireccion)***
+indica que dicha variable se utilizara como un puntero y no como una variable normal, es decir, su uso sera almacenar la direccion en momeria a otra variable.
+_______
+### **cout<<(*puntero); (desreferencia)***
+Devuelve el valor contenido o asigna uno nuevo en la direccion apuntada por dicho puntero.
